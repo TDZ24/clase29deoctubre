@@ -10,7 +10,6 @@ import {
 } from 'react-router-dom'
 export default function App() {
   return (
-
     <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <Router>
         <div className="container-fluid">

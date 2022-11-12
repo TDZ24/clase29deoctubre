@@ -1,6 +1,6 @@
 import Aside from "./Aside"
 import Footer from "./Footer"
-export default function menu() {
+export default function Menu() {
     return (
         <div className="container">
             <div className="row">
