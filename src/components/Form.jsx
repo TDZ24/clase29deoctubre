@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {useForm} from "react-hook-form"
 
-export default function User(){
+export default function Form(){
     const { register, formState: { errors }, handleSubmit } = useForm();
     const [inputs, setInputs] = useState([]);
     // Metodo par realizar las validaciones cuando se haga enviar

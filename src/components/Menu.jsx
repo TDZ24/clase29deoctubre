@@ -1,12 +1,12 @@
 import Aside from "./Aside"
 import Footer from "./Footer"
-export default function Home() {
+export default function menu() {
     return (
         <div className="container">
-            <div className="row text-center">
+            <div className="row">
                 <div className="col-sm-12 col-md-9">
                     <section>
-                        
+
                     </section>
                 </div>
                 <div className="col-sm-12 col-md-3">
@@ -17,5 +17,5 @@ export default function Home() {
                 <Footer></Footer>
             </div>
         </div>
-    )
+    );
 }
